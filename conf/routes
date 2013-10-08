@@ -1,0 +1,6 @@
+
+GET     /                           controllers.Application.index
+GET     /books                      controllers.brilliant.Books.list
+GET     /book/:id                   controllers.brilliant.Books.get(id:String)
+
+GET     /*file                      controllers.Assets.at(path="/public", file)
